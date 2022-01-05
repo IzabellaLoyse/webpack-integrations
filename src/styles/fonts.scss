@@ -1,0 +1,34 @@
+$roboto-font-path: '../fonts';
+$roboto-font-family: 'Roboto';
+
+@font-face {
+  font-family: $roboto-font-family;
+  font-weight: 400;
+  src: url('#{$roboto-font-path}/Roboto-Regular.ttf')
+      url('#{$roboto-font-path}/Roboto-Regular.woff') format('woff'),
+    url('#{$roboto-font-path}/Roboto-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  src: url('#{$roboto-font-path}/Roboto-Medium.ttf'),
+    url('#{$roboto-font-path}/Roboto-Medium.woff') format('woff'),
+    url('#{$roboto-font-path}/Roboto-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: url('#{$roboto-font-path}/Roboto-Bold.ttf'),
+    url('#{$roboto-font-path}/Roboto-Bold.woff') format('woff'),
+    url('#{$roboto-font-path}/Roboto-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 900;
+  src: url('#{$roboto-font-path}/Roboto-Black.ttf'),
+    url('#{$roboto-font-path}/Roboto-Black.woff') format('woff'),
+    url('#{$roboto-font-path}/Roboto-Black.woff2') format('woff2');
+}
